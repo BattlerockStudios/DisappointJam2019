@@ -162,7 +162,10 @@ public class Human : Character
 
         m_animator = GetComponent<Animator>();
 
-        m_target = gameObject;
+        if (m_target == null)
+        {
+            m_target = gameObject;
+        }
 
         SetSkinTone();
         SetBodyType();
