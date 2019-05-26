@@ -28,12 +28,7 @@ namespace Battlerock
             sphereCollider.radius = 5.0f;
             sphereCollider.isTrigger = true;
 
-            if (m_focusPoint == null)
-            {
-                m_focusPoint = new GameObject().transform;
-                m_focusPoint.position = transform.position;
-                m_focusPoint.transform.parent = transform;
-            }
+
 
             m_originalRotation = transform.localRotation;
         }
