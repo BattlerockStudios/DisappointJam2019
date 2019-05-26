@@ -180,15 +180,6 @@ PrefabInstance:
       propertyPath: m_target
       value: 
       objectReference: {fileID: 1132537431}
-    - target: {fileID: 1975458456008568, guid: 7be70c9a0b4d15a4dbe921509777aec9, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114856942325308126, guid: 7be70c9a0b4d15a4dbe921509777aec9,
-        type: 3}
-      propertyPath: focusLayers.m_Bits
-      value: 256
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7be70c9a0b4d15a4dbe921509777aec9, type: 3}
 --- !u!1 &705507993
